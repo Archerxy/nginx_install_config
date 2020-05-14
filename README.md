@@ -1,5 +1,5 @@
 ## 1.下载nginx源码包并解压
-  http://nginx.org/en/download.html下载.tar.gz的源码包
+  http://nginx.org/en/download.html 下载.tar.gz的源码包
 ## 2.安装依赖包
 　yum install openssl-devel pcre-devel zlib-devel
 ## 3.为nginx设置安装目录
