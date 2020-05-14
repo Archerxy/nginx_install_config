@@ -36,5 +36,5 @@
   运行 wget https://www.openssl.org/source/old/1.0.1/openssl-1.0.1o.tar.gz  
   解压，安装到指定目录   
   去到nginx解压包目录下运行   
-  ./configure --prefix=/installDir --with-http_ssl_module --with-http_flv_module --with-http_gzip_static_module --with-openssl=/usr/local/openssl/bin/openssl
+  ./configure --prefix=/installDir --with-http_ssl_module --with-http_flv_module --with-http_gzip_static_module --with-openssl=/usr/local/openssl-1.0.1o
 
