@@ -1,10 +1,8 @@
-# nginx_install_config
-nginx手动安装及其配置
-1.下载nginx源码包并解压
+# 1.下载nginx源码包并解压
   http://nginx.org/en/download.html下载.tar.gz的源码包
-2.安装依赖包
+# 2.安装依赖包
 　yum install openssl-devel pcre-devel zlib-devel
-2.为nginx设置安装目录
+# 3.为nginx设置安装目录
   去到解压目录，运行 ./configure --prefix=/installDir --with-http_ssl_module --with-http_flv_module --with-http_gzip_static_module
   所有选项
   ./configure
